@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background: #3c4142;
+  color: white;
+  padding: 40px;
+}
+
+.header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+}
+
+.backButton {
+  margin-top: auto;
+  padding: 10px 20px;
+  background: #7289da;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  width: fit-content;
+}

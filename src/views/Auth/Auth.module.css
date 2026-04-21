@@ -1,0 +1,105 @@
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #2b2b2b;
+  color: white;
+}
+
+.authBox {
+  background: #3c4142;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+}
+
+.authBox h1 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background: #2b2b2b;
+  color: white;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input:focus {
+  border-color: #7289da;
+}
+
+.input::-ms-reveal,
+.input::-ms-clear {
+  display: none;
+}
+
+.passwordWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.passwordWrapper input {
+  padding-right: 45px;
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 16px;
+  top: 22px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.eyeIcon:hover {
+  opacity: 1;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background: #7289da;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button:hover {
+  background: #5b6eae;
+}
+
+.toggleText {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.toggleText:hover {
+  color: #fff;
+}
+
+.message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 0.85rem;
+}

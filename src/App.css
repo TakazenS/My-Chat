@@ -1,0 +1,29 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  background: #31383c;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #2b2b2b;
+  color: white;
+  font-size: 1.2rem;
+}

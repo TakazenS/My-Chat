@@ -1,0 +1,88 @@
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.leftPannel {
+  background: #3c4142;
+  flex: 0 0 70px;
+  margin: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  box-shadow: 0 0 5px #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.leftPannelBottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.settingsButton {
+  width: 46px;
+  height: 46px;
+  background: #4a5052; /* Couleur plus proche du fond */
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.settingsButton:hover {
+  background: #5d6466;
+}
+
+.logoutButton {
+  width: 46px;
+  height: 46px;
+  background: #ed4245;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.logoutButton svg {
+  transform: rotate(180deg);
+}
+
+.logoutButton:hover {
+  background: #ff5c5c;
+}
+
+.navigationPannel {
+  background: #3c4142;
+  flex: 0 0 250px;
+  margin: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  box-shadow: 0 0 5px #2b2b2b;
+}
+
+.mainContent {
+  background: #3c4142;
+  flex: 1;
+  margin: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  box-shadow: 0 0 5px #2b2b2b;
+}
+
+.pannelHeader, .chatHeader {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+  color: white;
+}
